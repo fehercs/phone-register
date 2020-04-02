@@ -1,0 +1,26 @@
+{
+  "name": "phone-register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "knex": "^0.20.13",
+    "mysql": "^2.18.1",
+    "readline-sync": "^1.4.10",
+    "table": "^5.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fehercs/phone-register.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/fehercs/phone-register/issues"
+  },
+  "homepage": "https://github.com/fehercs/phone-register#readme"
+}
