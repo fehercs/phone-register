@@ -155,7 +155,7 @@ const modifyRecordSelect = async (option) => {
         await deleteRecord(name.first, name.last);
       }
     }
-  } else {
+  } else if (query.length > 1) {
     const data = createSelectArray(query);
     console.log(data);
     const index = read.keyInSelect(data, `Which record do you want to ${option}?`, { cancel: false });
